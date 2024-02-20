@@ -62,7 +62,7 @@ public class Electronics
 	}
 	public void Close()
 	{
-		close.click();
+		//close.click();
 	}
 
 
