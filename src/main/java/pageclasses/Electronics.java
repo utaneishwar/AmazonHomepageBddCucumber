@@ -27,7 +27,7 @@ public class Electronics
 
 	@FindBy(xpath = "//*[@id='add-to-cart-button']")
 	private WebElement AddTocart;
-	@FindBy(xpath = "//*[@class='a-link-normal close-button']")
+	@FindBy(xpath = "//*[@id='attach-close_sideSheet-link']")//changed
 	private WebElement close;
 
 	public Electronics (WebDriver driver)
